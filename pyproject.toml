@@ -1,0 +1,18 @@
+[project]
+name = "cv"
+version = "0.1.0"
+description = "se and kernel blocks with einops"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.119.1",
+    "uvicorn[standard]>=0.37.0",
+    "pydantic>=2.12.3",
+    "numpy==2.3.4",
+    "torch==2.9.0",
+    "matplotlib>=3.10.7",
+    "scikit-learn>=1.7.2",
+    "openai-whisper>=20250625",
+    "python-multipart>=0.0.20",
+    "einops==0.8.1"
+]
